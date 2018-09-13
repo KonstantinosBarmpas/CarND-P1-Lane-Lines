@@ -17,7 +17,7 @@ The goals / steps of this project are the following:
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
 
-[image2]: ./tests_images/output.jpg "Final Output"
+[image2]: ./test_images/output.jpg "Final Output"
 
 ---
 
