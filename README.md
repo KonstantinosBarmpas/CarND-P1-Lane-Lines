@@ -17,7 +17,7 @@ The goals / steps of this project are the following:
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
 
-[image2]: ./tests_images/output.png "Final Output"
+[image2]: ./tests_images/output.jpg "Final Output"
 
 ---
 
@@ -38,8 +38,8 @@ Last I did Hough Transform in the image using threshold values based on measurem
 
 Here is an example image:
 
-![alt text][image1]
-![alt text][image2]
+![image1]
+![image2]
 
 ### 2. Identify potential shortcomings with your current pipeline
 
