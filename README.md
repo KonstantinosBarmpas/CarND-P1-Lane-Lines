@@ -38,8 +38,8 @@ Last I did Hough Transform in the image using threshold values based on measurem
 
 Here is an example image:
 
-![image1]
-![image2]
+![alt text][image1]
+![alt text][image2]
 
 ### 2. Identify potential shortcomings with your current pipeline
 
