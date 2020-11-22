@@ -1,0 +1,60 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf200
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Bold;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red47\green180\blue29;
+\red180\green36\blue25;}
+{\*\expandedcolortbl;;\csgray\c0;\csgray\c100000;\cssrgb\c20238\c73898\c14947;
+\cssrgb\c76409\c21698\c12524;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \cb3 \CocoaLigature0 [ 66%] 
+\f1\b \cf4 Linking CXX executable mpc
+\f0\b0 \cf2 \
+ld: warning: directory not found for option '-L/usr/local/Cellar/libuv/1*/lib'\
+Undefined symbols for architecture x86_64:\
+  "_dasum_", referenced from:\
+      Ipopt::IpBlasDasum(int, double const*, int) in libipopt.a(IpBlas.o)\
+  "_daxpy_", referenced from:\
+      Ipopt::IpBlasDaxpy(int, double, double const*, int, double*, int) in libipopt.a(IpBlas.o)\
+  "_dcopy_", referenced from:\
+      Ipopt::IpBlasDcopy(int, double const*, int, double*, int) in libipopt.a(IpBlas.o)\
+      _ma28part_ in libipopt.a(IpMa28Partition.o)\
+  "_ddot_", referenced from:\
+      Ipopt::IpBlasDdot(int, double const*, int, double const*, int) in libipopt.a(IpBlas.o)\
+  "_dgemm_", referenced from:\
+      Ipopt::IpBlasDgemm(bool, bool, int, int, int, double, double const*, int, double const*, int, double, double*, int) in libipopt.a(IpBlas.o)\
+  "_dgemv_", referenced from:\
+      Ipopt::IpBlasDgemv(bool, int, int, double, double const*, int, double const*, int, double, double*, int) in libipopt.a(IpBlas.o)\
+  "_dgetrf_", referenced from:\
+      Ipopt::IpLapackDgetrf(int, double*, int*, int, int&) in libipopt.a(IpLapack.o)\
+  "_dgetrs_", referenced from:\
+      Ipopt::IpLapackDgetrs(int, int, double const*, int, int*, double*, int) in libipopt.a(IpLapack.o)\
+  "_dnrm2_", referenced from:\
+      Ipopt::IpBlasDnrm2(int, double const*, int) in libipopt.a(IpBlas.o)\
+  "_dpotrf_", referenced from:\
+      Ipopt::IpLapackDpotrf(int, double*, int, int&) in libipopt.a(IpLapack.o)\
+  "_dpotrs_", referenced from:\
+      Ipopt::IpLapackDpotrs(int, int, double const*, int, double*, int) in libipopt.a(IpLapack.o)\
+  "_dppsv_", referenced from:\
+      Ipopt::IpLapackDppsv(int, int, double const*, double*, int, int&) in libipopt.a(IpLapack.o)\
+  "_dscal_", referenced from:\
+      Ipopt::IpBlasDscal(int, double, double*, int) in libipopt.a(IpBlas.o)\
+  "_dsyev_", referenced from:\
+      Ipopt::IpLapackDsyev(bool, int, double*, int, double*, int&) in libipopt.a(IpLapack.o)\
+  "_dsymv_", referenced from:\
+      Ipopt::IpBlasDsymv(int, double, double const*, int, double const*, int, double, double*, int) in libipopt.a(IpBlas.o)\
+  "_dsyrk_", referenced from:\
+      Ipopt::IpBlasDsyrk(bool, int, int, double, double const*, int, double, double*, int) in libipopt.a(IpBlas.o)\
+  "_dtrsm_", referenced from:\
+      Ipopt::IpBlasDtrsm(bool, int, int, double, double const*, int, double*, int) in libipopt.a(IpBlas.o)\
+  "_idamax_", referenced from:\
+      Ipopt::IpBlasIdamax(int, double const*, int) in libipopt.a(IpBlas.o)\
+ld: symbol(s) not found for architecture x86_64\
+clang: 
+\f1\b \cf5 error: 
+\f0\b0 \cf2 linker command failed with exit code 1 (use -v to see invocation)\
+make[2]: *** [mpc] Error 1\
+make[1]: *** [CMakeFiles/mpc.dir/all] Error 2\
+make: *** [all] Error 2\
+macbook-pro-one:src user$ \
+}
